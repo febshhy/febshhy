@@ -1,16 +1,39 @@
-## Hi there 👋
+# Hi 👋
 
-<!--
-**febshhy/febshhy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**non-deterministic rule-based expert system software engineer** *(a.k.a. AI `.md` engineer)*
 
-Here are some ideas to get you started:
+I paid for 100% of my AI limit. I'm using 100% of my AI limit.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```text
+AI limit utilization  [██████████] 100%   <- the only SLO I have never missed
+```
+
+## Knowledge base
+
+- Interests: distributed computing, high-volume data, low-latency systems
+- Also interested in being a multi-hat data person
+- Roles of interest: Software engineer · Data engineer · DevOps · SRE · BI / data analyst
+
+## Rule base
+
+| IF | THEN |
+| --- | --- |
+| it needs writing | Go (preferred) |
+| it needs scripting | Python · Bash |
+| it needs math | Python, a wrapper for Fortran (NumPy), C++ (JAX), Rust and Arrow (Polars), etc. |
+| it needs storing | SQLite · DuckDB · Postgres · ClickHouse |
+| it needs a pipeline | Airflow · dbt · Spark · Redpanda · Airbyte |
+| it needs a dashboard | Metabase · Power BI |
+| it needs deploying | systemd · Kubernetes |
+| it needs provisioning | OpenTofu · Terraform |
+| it needs serving | nginx · Apache · Traefik |
+| it needs watching | Victoria · LGTM |
+| it is slow | pprof · Chrome DevTools |
+| it needs linting | golangci-lint · ruff · biome |
+| it needs scanning | semgrep |
+
+## Working memory
+
+- Learning now: TypeScript
+- Learning later: Swift, C++
+
