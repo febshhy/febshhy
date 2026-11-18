@@ -17,9 +17,9 @@ Heimdall helps Codex trace affected code paths, keep changes focused, and report
 
 [Repository](https://github.com/febshhy/heimdall-codex) · [How it works](https://github.com/febshhy/heimdall-codex/blob/main/marketing/HOW_IT_WORKS.md) · [Engineering playbook](https://github.com/febshhy/heimdall-codex/blob/main/marketing/ENGINEERING_PLAYBOOK.md)
 
-### Mimir for Codex CLI
+### Mimir for Codex
 
-Mimir helps Codex CLI trace data from source records to dashboards or ML outputs and verify results against known records.
+Mimir helps Codex trace data from source records to dashboards or ML outputs and verify results against known records.
 
 [Repository](https://github.com/febshhy/mimir-codex) · [Captured revenue example](https://github.com/febshhy/mimir-codex/blob/main/marketing/HOW_IT_WORKS.md#example-captured-revenue-from-source-to-dashboard) · [Data playbook](https://github.com/febshhy/mimir-codex/blob/main/marketing/DATA_PLAYBOOK.md)
 
