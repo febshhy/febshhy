@@ -13,17 +13,13 @@ AI limit utilization  [██████████] 100%  <- the only SLO I'v
 
 ### Heimdall for Codex
 
-Small requests can have a surprisingly wide blast radius. Change who can see a report and you might have to look at the API, the export, and a scheduled job.
-
-I built Heimdall to give Codex a workflow for changes like that. It asks Codex to trace the affected paths before editing, keep the diff focused, and say which checks actually ran. The part I care about most is being able to review the result without reconstructing the entire investigation from a diff.
+Heimdall helps Codex trace affected code paths, keep changes focused, and report what it verified.
 
 [Repository](https://github.com/febshhy/heimdall-codex) · [How it works](https://github.com/febshhy/heimdall-codex/blob/main/marketing/HOW_IT_WORKS.md) · [Engineering playbook](https://github.com/febshhy/heimdall-codex/blob/main/marketing/ENGINEERING_PLAYBOOK.md)
 
 ### Mimir for Codex CLI
 
-A checkout change can look fine in the app and still change the revenue number on a dashboard. Mimir gives Codex CLI a way to follow that change from the payment event through ingestion, SQL models, and the report people use.
-
-Its skills cover data pipelines, advanced SQL, dimensional modeling, notebooks, and ML. For a metric like captured revenue, the workflow starts by checking what one row represents and which timestamp counts, then reconciles the result against known payment records.
+Mimir helps Codex CLI trace data from source records to dashboards or ML outputs and verify results against known records.
 
 [Repository](https://github.com/febshhy/mimir-codex) · [Captured revenue example](https://github.com/febshhy/mimir-codex/blob/main/marketing/HOW_IT_WORKS.md#example-captured-revenue-from-source-to-dashboard) · [Data playbook](https://github.com/febshhy/mimir-codex/blob/main/marketing/DATA_PLAYBOOK.md)
 
