@@ -1,39 +1,28 @@
-# Hi 👋
+# febshhy
 
-**non-deterministic rule-based expert system software engineer** *(a.k.a. AI `.md` engineer)*
+**Non-deterministic rule-based expert system software engineer**  
+(a.k.a. AI `.md` engineer)
 
-I paid for 100% of my AI limit. I'm using 100% of my AI limit.
+I like distributed systems, high-volume data, and figuring out where the milliseconds went. I’m happy anywhere between the event stream and the dashboard.
 
 ```text
-AI limit utilization  [██████████] 100%   <- the only SLO I have never missed
+AI limit utilization  [██████████] 100%  <- the only SLO I've never missed
 ```
 
-## Knowledge base
+## What I’m building
 
-- Interests: distributed computing, high-volume data, low-latency systems
-- Also interested in being a multi-hat data person
-- Roles of interest: Software engineer · Data engineer · DevOps · SRE · BI / data analyst
+[**Heimdall**](https://github.com/febshhy/heimdall-codex) gives Codex a workflow for tracing which code paths a change affects, keeping the diff focused, and showing what it actually verified.
 
 ## Rule base
 
 | IF | THEN |
 | --- | --- |
-| it needs writing | Go (preferred) |
-| it needs scripting | Python · Bash |
-| it needs math | Python, a wrapper for Fortran (NumPy), C++ (JAX), Rust and Arrow (Polars), etc. |
-| it needs storing | SQLite · DuckDB · Postgres · ClickHouse |
-| it needs a pipeline | Airflow · dbt · Spark · Redpanda · Airbyte |
-| it needs a dashboard | Metabase · Power BI |
-| it needs deploying | systemd · Kubernetes |
-| it needs provisioning | OpenTofu · Terraform |
-| it needs serving | nginx · Apache · Traefik |
-| it needs watching | Victoria · LGTM |
-| it is slow | pprof · Chrome DevTools |
-| it needs linting | golangci-lint · ruff · biome |
-| it needs scanning | semgrep |
+| It needs a service | Go |
+| It needs a script | Python or Bash |
+| It fits in one file | SQLite for the app, DuckDB for the analysis |
+| It needs a server | Postgres for transactions, ClickHouse for analytics |
+| It needs a pipeline | Airflow + dbt for batch, Redpanda for streams |
+| It needs to run somewhere | systemd or Kubernetes |
+| It’s slow | pprof or Chrome DevTools |
 
-## Working memory
-
-- Learning now: TypeScript
-- Learning later: Swift, C++
-
+**Learning now** · TypeScript
